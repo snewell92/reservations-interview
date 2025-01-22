@@ -13,7 +13,7 @@ Ensure you have the following software installed:
 > Links to everything used are in the bottom [References](#References) section
 
 - git
-- dotnet (v8)
+- dotnet 8 (tested with sdk 8.0.104 / 8.0.204 / 8.0.303 / 8.0.400)
 - node (v20)
 - caddy
 
@@ -26,7 +26,7 @@ If you are on a mac, get homebrew so you can quickly install everything:
 ```sh
 brew install git
 brew install dotnet-sdk
-dotnet --list-sdks # tested with sdk 8.0.104 / 8.0.303
+dotnet --list-sdks
 
 # I recommend fnm to manage node
 brew install fnm
@@ -47,7 +47,7 @@ If you are on a windows, get chocolatey so you can quickly install everything:
 ```ps1
 choco install git
 choco install dotnet
-dotnet --list-sdks # tested with sdk 8.0.104 / 8.0.303
+dotnet --list-sdks
 
 # I recommend fnm to manage node
 choco install fnm
@@ -72,7 +72,7 @@ apt install git
 
 # Will include dependencies: https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-install?tabs=dotnet8&pivots=os-linux-ubuntu-2404#dependencies
 apt install dotnet-sdk-8.0
-dotnet --list-sdks # tested with sdk 8.0.104 / 8.0.303
+dotnet --list-sdks
 
 # I recommend fnm to manage node
 # Instructions here: https://github.com/Schniz/fnm#installation
